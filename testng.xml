@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="POM Centelon Test">
+
+	<listeners>
+
+		<listener class-name="CCT.listeners.CustomListeners" />
+
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+
+	</listeners>
+
+
+	<test name="Create Account Test">
+		<classes>
+			<class name="CCT.testcases.CreateAccountTest" />
+		</classes>
+	</test> <!-- Test -->
+
+
+</suite> <!-- Suite -->

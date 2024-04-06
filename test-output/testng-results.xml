@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-06T11:47:54Z" name="POM Centelon Test" finished-at="2024-04-06T11:48:00Z" duration-ms="5095">
+    <groups>
+    </groups>
+    <test started-at="2024-04-06T11:47:54Z" name="Create Account Test" finished-at="2024-04-06T11:48:00Z" duration-ms="5095">
+      <class name="CCT.testcases.SignInTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:CCT.testcases.SignInTest@5f14a673]" started-at="2024-04-06T17:17:48Z" name="setup" finished-at="2024-04-06T17:17:54Z" duration-ms="6434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="signInTest(java.util.Hashtable)[pri:0, instance:CCT.testcases.SignInTest@5f14a673]" started-at="2024-04-06T17:17:54Z" name="signInTest" data-provider="dp" finished-at="2024-04-06T17:17:59Z" duration-ms="4837" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Password=Pooja@1993, runmode=y, Email=pooja.girolkar@gmail.com, FullName=Pooja Girolkar}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CCT.testcases.SignInTest@5f14a673]" started-at="2024-04-06T17:18:00Z" name="tearDown" finished-at="2024-04-06T17:18:00Z" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- CCT.testcases.SignInTest -->
+    </test> <!-- Create Account Test -->
+  </suite> <!-- POM Centelon Test -->
+</testng-results>
